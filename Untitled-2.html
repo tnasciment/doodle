@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Form Design Challenge</title>
+<link href="Design Challenge Style Sheet.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div class="binoculars"><p class="binoculars-icon"><img src="iconmonstr-binoculars-8.png" width="40" height="30" alt=""/><i class="fa fa-info-circl fa-binoculars-icon"></i></p> 
+	<div class="binoculars-popup">
+		<br><h1>Product Suggestion Form</h1>
+	<form>
+	  <label for="fname">Full Name</label><br>
+	  <input type="text" id="fname" name="fname"><br>
+	  <label for="email">Email Address</label><br>
+	  <input type="text" id="email" name="email"><br>
+	  <label for="ProductDes">Product Description</label><br>
+	  <textarea name="message" rows="4" cols="31">Describe the product you are looking for, please be as detailed as possible. 
+      </textarea><br><br>
+	  <button type="button" onclick="alert('Form Submitted! We'll begin trying to locate this product.')">Submit</button>
+	</form><br><br>
+	</div>
+	</div>
+	
+	<div class="phone"><p class="phone-icon"><img src="iconmonstr-phone-2.png" width="30" height="40" alt=""/><i class="fa fa-info-circl fa-phone-icon"></i></p><div class="phone-popup">
+		<br><h1>Contact Us</h1>
+	<form>
+	  <label for="fname">Full Name</label><br>
+	  <input type="text" id="fname2" name="fname"><br>
+	  <label for="email">Email Address</label><br>
+	  <input type="text" id="email2" name="email"><br>
+		<label for="contactreason">Contact Reason</label><br>
+		<input type="radio" id="orderquestion" name="feedback" value="trouble finding product">
+  <label for="orderquestion">Order Question</label><br>
+  <input type="radio" id="feedback" name="ContactReason" value="feedback">
+  <label for="feedback">Website Feedback</label><br>
+  <input type="radio" id="trouble" name="contactreason" value=“trouble">
+  <label for="other">Trouble Finding Product</label><br>
+	  <label for="ProductDes">Feedback</label><br>
+	  <textarea name="message" rows="4" cols="31">How can we help you? Please be as detailed as possible.</textarea> <br><br>
+		
+	  <button type="button" onclick="alert('Form Submitted! We'll begin trying to locate this product.')">Submit</button>
+	</form><br><br></div></div>
+</body>
+</html>
